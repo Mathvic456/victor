@@ -189,7 +189,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">About Me</h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
-              The story of a man, his code, and his monthly Crunchyroll bill that rivals his electricity bill.
+              The story of a man named victor, his code, and his monthly Crunchyroll bill that rivals his electricity bill.
             </p>
           </div>
         </FadeIn>
@@ -200,16 +200,16 @@ export default function Home() {
               <h3 className="text-xl sm:text-2xl font-bold">The Origin Story</h3>
               <p className="text-gray-300 text-sm sm:text-base">
                 I started coding when I realized my anime addiction wasn't going to pay for itself. Now I transform
-                coffee into code by day so I can transform into a couch potato by night.
+                coffee into code by day so I can transform into a couch potato by night (that was meant to make you laugh, incase you did not).
               </p>
               <p className="text-gray-300 text-sm sm:text-base">
                 Based in Nigeria, I've mastered the art of coding through power outages and internet that moves slower
                 than the plot in a slice-of-life anime. My first app was a calculator that converted "episodes watched"
-                into "hours I should have been working."
+                into "hours I should have been working." My point is, I can code through anything, even if it means going to my neighbour's house to get your job done.
               </p>
               <p className="text-gray-300 text-sm sm:text-base">
                 My friends say I need to find balance. I say I've found it perfectly: 50% coding, 50% anime, and 0%
-                savings.
+                savings. (I mean why save for rainy days when every day is literally a rainy day right?)
               </p>
             </div>
 
@@ -218,7 +218,7 @@ export default function Home() {
               <p className="text-gray-300 text-sm sm:text-base">
                 My mission is simple: write enough good code to keep a roof over my head and maintain my premium anime
                 subscriptions. It's not much, but it's honest work. My five-year plan includes affording both rent AND
-                food in the same month.
+                food in the same month. 
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <div className="bg-white/10 p-3 rounded-full shrink-0">
@@ -227,7 +227,7 @@ export default function Home() {
                 <div>
                   <h4 className="font-medium">Code that pays the bills</h4>
                   <p className="text-sm text-gray-400">
-                    Literally. My landlord accepts JavaScript (he doesn't, I've tried).
+                    Literally. My landlord accepts JavaScript (that was a joke. He doesn't, I've tried).
                   </p>
                 </div>
               </div>
