@@ -158,7 +158,7 @@ export default function Home() {
             <div className="space-y-6">
               <Badge className="bg-white text-black hover:bg-gray-200">Available for Work (Rent Due Soon)</Badge>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-                I write <span className="text-gray-400">code</span> to pay for{" "}
+                Hi, I'm Victor. I write <span className="text-gray-400">code</span> to pay for{" "}
                 <span className="text-gray-400">rent</span> and <span className="text-gray-400">anime</span>.
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl">

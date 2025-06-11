@@ -214,93 +214,6 @@ export default function ProjectsPage() {
 // Enhanced project data with iframe URLs instead of screenshots
 const projects: ProjectDetails[] = [
   {
-    title: "RentPay Reminder",
-    description:
-      "Because my landlord doesn't accept 'I was watching the season finale' as payment. Features include panic mode when you're 3 days from eviction.",
-    longDescription:
-      "RentPay Reminder was born after my third 'final notice' letter. It sends notifications before rent is due, tracks payment history, and even suggests freelance opportunities when your bank account is looking as empty as my fridge the day before payday. The app has saved me from eviction at least twice, which means I've saved enough on moving costs to afford another year of anime subscriptions.",
-    challenges:
-      "The main challenge was creating a system that could integrate with various payment platforms while being more reliable than my promises to 'watch just one more episode' before bed. Also, convincing my landlord to accept partial payments in the form of 'I'll fix your website' was surprisingly difficult.",
-    solutions:
-      "I implemented OAuth 2.0 for secure authentication and used Plaid API for safe bank account integration. The notification system is more persistent than a shounen protagonist facing the final boss. It starts with gentle reminders 10 days before rent is due, escalating to panic mode with flashing red alerts and automatic job search queries by day 3.",
-    tags: ["React", "Node.js", "MongoDB", "Express"],
-    image: "/placeholder.svg?height=300&width=400",
-    iframeUrls: [
-      "https://codesandbox.io/embed/react-dashboard-demo?fontsize=14&hidenavigation=1&theme=dark",
-      "https://codesandbox.io/embed/react-calendar-demo?fontsize=14&hidenavigation=1&theme=dark",
-    ],
-    iframeDescriptions: [
-      "Main dashboard showing rent tracking and payment history",
-      "Calendar view with rent due dates and payment reminders",
-    ],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    category: "fullstack",
-    developmentTime: "3 weeks (and 2 sleepless nights)",
-    coffeeConsumed: 47,
-    episodesMissed: 23,
-    rentMonthsPaid: 4,
-  },
-  {
-    title: "AnimeTrackr",
-    description:
-      "Helping me budget between instant ramen and premium Crunchyroll since 2023. Includes a 'Skip Lunch' calculator to afford more episodes.",
-    longDescription:
-      "AnimeTrackr is the ultimate tool for anime enthusiasts who need to budget their entertainment expenses. It connects to popular streaming services to track subscription costs and calculates exactly how many freelance hours you need to work to support your anime habit. The app has a special 'Cup Noodle Mode' that shows you how many meals you can skip to afford the premium subscription tier.",
-    challenges:
-      "Integrating with multiple streaming platforms was harder than explaining to my landlord why I need high-speed internet more than a working refrigerator. Also, the algorithm kept suggesting I work 36 hours per day to support my watching habits, which seemed slightly unrealistic.",
-    solutions:
-      "I built a unified API wrapper that standardizes data from different streaming services. The work hour calculator uses an algorithm more complex than the plot of Neon Genesis Evangelion. It factors in your average hourly rate, taxes, and even accounts for seasonal anime releases to predict future expenses.",
-    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
-    image: "/placeholder.svg?height=300&width=400",
-    iframeUrls: [
-      "https://codesandbox.io/embed/anime-tracker-demo?fontsize=14&hidenavigation=1&theme=dark",
-      "https://codesandbox.io/embed/budget-calculator-demo?fontsize=14&hidenavigation=1&theme=dark",
-    ],
-    iframeDescriptions: [
-      "Anime watchlist with subscription cost tracking",
-      "Work hour calculator based on anime watching goals",
-    ],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    category: "frontend",
-    developmentTime: "2 weeks (during anime hiatus)",
-    coffeeConsumed: 31,
-    episodesMissed: 15,
-    rentMonthsPaid: 2,
-  },
-  {
-    title: "DevFolio",
-    description:
-      "For developers whose GitHub activity graph peaks right before rent is due. Includes a 'Desperation Level' indicator for potential clients.",
-    longDescription:
-      "DevFolio is a customizable portfolio template specifically designed for developers who want to showcase not just their technical skills, but also what motivates them to code. In my case: avoiding homelessness and maintaining my anime streaming subscriptions. The template includes sections for personal interests and how they connect to your development journey.",
-    challenges:
-      "Creating a template that was both professional enough for potential employers but also personal enough to showcase individual passions was like trying to balance my budget between rent and the latest limited edition anime figurines.",
-    solutions:
-      "I designed the template with a modular approach, allowing users to emphasize either the professional or personal aspects depending on their audience. Like how I switch between 'responsible adult' and 'otaku' depending on who I'm talking to.",
-    tags: ["React", "GSAP", "Styled Components"],
-    image: "/placeholder.svg?height=300&width=400",
-    iframeUrls: [
-      "https://codesandbox.io/embed/portfolio-template-demo?fontsize=14&hidenavigation=1&theme=dark",
-      "https://codesandbox.io/embed/portfolio-customizer-demo?fontsize=14&hidenavigation=1&theme=dark",
-    ],
-    iframeDescriptions: [
-      "Portfolio template with customizable sections",
-      "Theme customizer showing different layout options",
-    ],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    category: "design",
-    developmentTime: "4 weeks (perfectionist mode)",
-    coffeeConsumed: 62,
-    episodesMissed: 31,
-    rentMonthsPaid: 3,
-  },
-  {
     title: "Ebony-Life Website Revamp",
     description:
       "A complete overhaul of a resturant/lounge/hotel website that was too basic for my liking. Now it has more flair than even ric flair",
@@ -312,10 +225,97 @@ const projects: ProjectDetails[] = [
       "I implemented a modern design system using Figma for prototyping and collaborated closely with the client to ensure the new design met their vision. The site now features smooth animations, a responsive layout, and an intuitive user interface that makes booking a table as easy as ordering takeout.",
     tags: ["React Native", "Lucide react", "Firebase", "Tailwind CSS", "Next.js"],
     image: "/placeholder.svg?height=300&width=400",
-    iframeUrls: ["ebony-life.vercel.app"],
-    iframeDescriptions: ["Restaurant website with interactive features"],
+    iframeUrls: [
+      "https://ebony-life.vercel.app",
+      "https://ebony-life.vercel.app/cinema",
+    ],
+    iframeDescriptions: [
+      "Main dashboard showing rent tracking and payment history",
+      "Calendar view with rent due dates and payment reminders",
+    ],
     demoUrl: "ebony-life.vercel.app",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Mathvic456/ebony-life",
+    featured: true,
+    category: "fullstack",
+    developmentTime: "3 weeks (and 2 sleepless nights)",
+    coffeeConsumed: 47,
+    episodesMissed: 23,
+    rentMonthsPaid: 4,
+  },
+  {
+    title: "Mental Health Agency Landing Page",
+    description:
+      "A landing page for a mental health agency that was so calming, it made my landlord forget I was late on rent.",
+    longDescription:
+      "This project involved creating a landing page for a mental health agency that needed to convey trust, professionalism, and a sense of calm. The design features soothing colors, clear typography, and an easy-to-navigate layout that guides users to important resources.",
+    challenges:
+      "The biggest challenge was balancing the need for a professional appearance with the sensitive nature of the content. Also, trying to make a mental health agency's website feel less like a therapy session and more like a friendly chat took some creative design work.",
+    solutions:
+      "I focused on a minimalist design approach, using soft colors and ample white space to create a calming effect. The site includes sections for resources, contact information, and a blog that provides helpful tips for mental well-being.",
+    tags: ["Next.js", "TypeScript", "Tailwind", "Prisma"],
+    image: "/placeholder.svg?height=300&width=400",
+    iframeUrls: [
+      "https://mind-heal-ngo.vercel.app/",
+      "https://mind-heal-ngo.vercel.app/",
+    ],
+    iframeDescriptions: [
+      "Anime watchlist with subscription cost tracking",
+      "Work hour calculator based on anime watching goals",
+    ],
+    demoUrl: "https://mind-heal-ngo.vercel.app/",
+    githubUrl: "https://github.com/Mathvic456/Tar-ngo",
+    featured: true,
+    category: "frontend",
+    developmentTime: "2 weeks (during anime hiatus)",
+    coffeeConsumed: 31,
+    episodesMissed: 15,
+    rentMonthsPaid: 2,
+  },
+  {
+    title: "Fashion E-commerce Platform",
+    description:
+      "An e-commerce platform for a fashion brand that was so stylish, it made my wardrobe look like a thrift store.",
+    longDescription:
+      "This project involved building a full-fledged e-commerce platform for a fashion brand, complete with product listings, a shopping cart, and a secure checkout process. The design focuses on showcasing the brand's unique style while providing a seamless shopping experience.",
+    challenges:
+      "The biggest challenge was integrating a secure payment gateway while ensuring the site remained user-friendly. Also, convincing the client that 'more sequins' is not always the answer took some negotiation.",
+    solutions:
+      "I implemented a robust e-commerce solution using Next.js and Stripe for secure payments. The site features a clean, modern design with high-quality product images, easy navigation, and a responsive layout that works well on all devices.",
+    tags: ["React", "GSAP", "Styled Components"],
+    image: "/placeholder.svg?height=300&width=400",
+    iframeUrls: [
+      "https://fashion-ecommerce-store.vercel.app/",
+      "https://fashion-ecommerce-store.vercel.app/products",
+    ],
+    iframeDescriptions: [
+      "Portfolio template with customizable sections",
+      "Theme customizer showing different layout options",
+    ],
+    demoUrl: "https://fashion-ecommerce-store.vercel.app/",
+    githubUrl: "https://github.com/Mathvic456/fahsion-store",
+    featured: true,
+    category: "design",
+    developmentTime: "4 weeks (perfectionist mode)",
+    coffeeConsumed: 62,
+    episodesMissed: 31,
+    rentMonthsPaid: 3,
+  },
+  {
+    title: "Pureline Interior Designs",
+    description:
+      "A website for an interior design agency that was so sleek, it made my landlord consider redecorating my apartment.",
+    longDescription:
+      "A complete redesign of the Pureline Interior Designs website, transforming it from a basic static site into a dynamic, user-friendly platform that reflects the brand's modern aesthetic. The new design includes an interactive portfolio, service descriptions, and a contact form for inquiries.",
+    challenges:
+      "The biggest challenge was working with outdated design assets and a lack of clear brand guidelines. Also, convincing the client that 'more marble' is not always the answer took some negotiation.",
+    solutions:
+      "I implemented a modern design system using Figma for prototyping and collaborated closely with the client to ensure the new design met their vision. The site now features smooth animations, a responsive layout, and an intuitive user interface that makes browsing their portfolio a pleasure.",
+    tags: ["React Native", "Lucide react", "Firebase", "Tailwind CSS", "Next.js"],
+    image: "/placeholder.svg?height=300&width=400",
+    iframeUrls: ["https://pureline-12v5.vercel.app/"],
+    iframeDescriptions: ["Restaurant website with interactive features"],
+    demoUrl: "https://pureline-12v5.vercel.app/",
+    githubUrl: "https://github.com/Mathvic456/pureline",
     category: "frontend",
     developmentTime: "3 weeks",
     coffeeConsumed: 28,
@@ -323,24 +323,24 @@ const projects: ProjectDetails[] = [
     rentMonthsPaid: 1,
   },
   {
-    title: "Code4Ramen",
+    title: "Avenue Suites",
     description:
-      "Freelance job board specifically for developers who work to fund their hobbies. Filter by 'Rent Due Date' and 'Anime Season Premieres'.",
+      "A hotel booking platform that was so luxurious, it made my landlord consider a career change.",
     longDescription:
-      "Code4Ramen is a freelance platform that understands developers have priorities beyond just coding. Whether you're funding your anime addiction, gaming setup, or just trying to keep the lights on, this platform connects you with clients who appreciate honesty about your motivations.",
+      "Avenue Suites is a hotel booking platform that allows users to search for and book rooms at various hotels. The site features a clean, modern design with easy navigation, a powerful search engine, and a secure booking process.",
     challenges:
-      "Building a job board that could handle real-time updates while maintaining user privacy was complex. Also, convincing clients that 'I need money for anime' is a valid motivation took some creative marketing.",
+      "Integrating with multiple hotel APIs while ensuring a consistent user experience was a challenge. Also, convincing the client that 'more marble' is not always the answer took some negotiation.",
     solutions:
-      "I implemented Socket.io for real-time job updates and created a unique matching algorithm that considers both technical skills and personal deadlines. The platform now has a 'Desperation Mode' that prioritizes urgent financial needs.",
+      "I implemented a robust backend using Node.js and Express to handle API requests and manage bookings. The frontend is built with React, providing a responsive design that works seamlessly on all devices. The site includes features like room availability checking, booking management, and user reviews.",
     tags: ["Vue.js", "Node.js", "MongoDB", "Socket.io"],
     image: "/placeholder.svg?height=300&width=400",
     iframeUrls: [
-      "https://codesandbox.io/embed/job-board-demo?fontsize=14&hidenavigation=1&theme=dark",
-      "https://codesandbox.io/embed/freelancer-dashboard-demo?fontsize=14&hidenavigation=1&theme=dark",
+      "https://avenue-suites.vercel.app/",
+      "https://avenue-suites.vercel.app/rooms",
     ],
     iframeDescriptions: [
-      "Job board with unique filtering options",
-      "Freelancer dashboard with desperation mode indicator",
+      "Avenue Suites homepage with booking options",
+      "Avenue Suites room listings with filters and search",
     ],
     demoUrl: "#",
     githubUrl: "#",
@@ -351,21 +351,21 @@ const projects: ProjectDetails[] = [
     rentMonthsPaid: 6,
   },
   {
-    title: "BingeCalculator",
+    title: "Sky mart e-commerce",
     description:
-      "Calculates how much time you need to binge-watch a series, then converts that into billable hours needed to avoid eviction.",
+      "An e-commerce platform that was so sleek, it made my landlord consider selling his own products online.",
     longDescription:
-      "BingeCalculator helps you plan your anime watching schedule around your work commitments. Input a series, and it calculates total watch time, suggests optimal binge schedules, and most importantly, tells you how many freelance hours you need to work to afford the time off.",
+      "Sky Mart is a comprehensive e-commerce platform that allows users to browse and purchase a wide range of products. The site features a modern design, intuitive navigation, and a secure checkout process, making online shopping a breeze.",
     challenges:
-      "Integrating with multiple anime databases while handling different episode lengths and special episodes was tricky. The hardest part was making the work-hour calculations realistic instead of depressing.",
+      "Integrating a secure payment gateway while ensuring the site remained user-friendly was a challenge. Also, convincing the client that 'more neon' is not always the answer took some negotiation.",
     solutions:
-      "I used TMDB API for comprehensive anime data and created a smart algorithm that factors in your hourly rate, living expenses, and even includes buffer time for 'just one more episode' syndrome.",
+      "I implemented a robust e-commerce solution using Next.js and Stripe for secure payments. The site features a clean, modern design with high-quality product images, easy navigation, and a responsive layout that works well on all devices. The platform includes features like product reviews, wish lists, and order tracking.",
     tags: ["React", "Redux", "TMDB API"],
     image: "/placeholder.svg?height=300&width=400",
-    iframeUrls: ["https://codesandbox.io/embed/binge-calculator-demo?fontsize=14&hidenavigation=1&theme=dark"],
-    iframeDescriptions: ["Binge calculator showing time and cost analysis for anime series"],
-    demoUrl: "#",
-    githubUrl: "#",
+    iframeUrls: ["https://v0-e-commerce-platform-design-gilt.vercel.app/"],
+    iframeDescriptions: [""],
+    demoUrl: "https://v0-e-commerce-platform-design-gilt.vercel.app/",
+    githubUrl: "https://github.com/Mathvic456/skymart",
     category: "frontend",
     developmentTime: "3 weeks",
     coffeeConsumed: 39,
