@@ -53,7 +53,7 @@ export default function Home() {
       tags: ["React", "Node.js", "MongoDB"],
       image: "/placeholder.svg?height=300&width=400",
       demoUrl: "https://admin-dash-ecom.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Mathvic456/admin-panel",
       longDescription:
         "Admin Dashboard is a powerful tool for managing ecommerce platforms, designed to make product and order management as easy as possible. ",
       challenges:
@@ -63,35 +63,35 @@ export default function Home() {
       screenshots: ["/placeholder.svg?height=200&width=350", "/placeholder.svg?height=200&width=350"],
     },
     {
-      id: "animetrackr",
-      title: "AnimeTrackr",
-      description: "Helping me budget between instant ramen and premium Crunchyroll since 2023.",
+      id: "Lumina Candles",
+      title: "Lumina Candles",
+      description: "A candle e-commerce site for a small scale business.",
       tags: ["Next.js", "TypeScript", "Tailwind"],
       image: "/placeholder.svg?height=300&width=400",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://lumina-candle.vercel.app/",
+      githubUrl: "https://github.com/Mathvic456/lumina-candle",
       longDescription:
-        "AnimeTrackr is the ultimate tool for anime enthusiasts who need to budget their entertainment expenses. It converts your watchlist into 'hours of coding needed' metrics.",
+        "Lumina Candles is a beautifully designed e-commerce site for a small candle business, showcasing products with a focus on aesthetics and user experience.",
       challenges:
-        "Integrating with multiple streaming platforms was harder than explaining to my landlord why I need high-speed internet more than a working refrigerator.",
+        "Creating a visually appealing design that also provided a smooth shopping experience was a challenge. I had to ensure that the site was not only functional but also reflected the brand's identity.",
       solutions:
-        "I built a unified API wrapper that standardizes data from different streaming services. The work hour calculator uses an algorithm more complex than the plot of Neon Genesis Evangelion.",
+        "I used Next.js for server-side rendering to improve performance and SEO. The design was crafted with Tailwind CSS, allowing for a clean and modern look while ensuring responsiveness across devices.",
       screenshots: ["/placeholder.svg?height=200&width=350", "/placeholder.svg?height=200&width=350"],
     },
     {
-      id: "devfolio",
-      title: "DevFolio",
-      description: "For developers whose GitHub activity graph peaks right before rent is due.",
+      id: "TAR",
+      title: "TAR - Trauma and Addiction Recovery",
+      description: "A platform for trauma and addiction recovery resources.",
       tags: ["React", "GSAP", "Styled Components"],
       image: "/placeholder.svg?height=300&width=400",
-      demoUrl: "#",
-      githubUrl: "#",
+      demoUrl: "https://mind-heal-ngo.vercel.app/",
+      githubUrl: "https://github.com/Mathvic456/Tar-ngo",
       longDescription:
-        "DevFolio is a portfolio template for developers who want to showcase not just their technical skills, but also what motivates them to code.",
+        "TAR is a non-profit organization focused on providing resources and support for trauma and addiction recovery. The platform offers educational materials, community support, and professional resources.",
       challenges:
-        "Creating a template that was both professional enough for potential employers but also personal enough to showcase individual passions was challenging.",
+        "Building a platform that is both informative and supportive while ensuring user privacy and security was a significant challenge. I also had to create an engaging user experience that encouraged community interaction.",
       solutions:
-        "I designed the template with a modular approach, allowing users to emphasize either the professional or personal aspects depending on their audience.",
+        "I implemented secure user authentication and data encryption to protect user information. The site was designed with a focus on accessibility and ease of navigation, using React for dynamic content updates and GSAP for smooth animations.",
       screenshots: ["/placeholder.svg?height=200&width=350", "/placeholder.svg?height=200&width=350"],
     },
   ]
@@ -160,11 +160,11 @@ export default function Home() {
               <Badge className="bg-white text-black hover:bg-gray-200">Available for Work (Rent Due Soon)</Badge>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
                 Hi, I'm Victor. I write <span className="text-gray-400">code</span> to pay for{" "}
-                <span className="text-gray-400">rent</span> and <span className="text-gray-400">anime</span>.
+                <span className="text-gray-400">rent</span> and <span className="text-gray-400">solve problems</span>.
               </h1>
               <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-2xl">
-                Frontend developer from Nigeria turning caffeine into code by day, and binge-watching anime by night. My
-                superpower? Making pixels pay the bills while my Crunchyroll subscription remains uninterrupted.
+                Frontend developer from Nigeria solving real-world problems with clean, functional code. By day, I craft seamless user experiences — by night, 
+                I’m figuring out how to turn every pixel into rent money. Focused, reliable, and committed to using tech to meet needs and make life easier.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-white text-black hover:bg-gray-200">
@@ -192,8 +192,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">About Me</h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
-              The story of a man named victor, his code, and his monthly Crunchyroll bill that rivals his electricity bill.
-            </p>
+The story of a man named Victor, his code, and the monthly rent that keeps him grounded more than any utility bill ever could.            </p>
           </div>
         </FadeIn>
 
@@ -202,26 +201,24 @@ export default function Home() {
             <div className="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 space-y-4">
               <h3 className="text-xl sm:text-2xl font-bold">The Origin Story</h3>
               <p className="text-gray-300 text-sm sm:text-base">
-                I started coding when I realized my anime addiction wasn't going to pay for itself. Now I transform
-                coffee into code by day so I can transform into a couch potato by night (that was meant to make you laugh, incase you did not).
+                Started coding out of necessity, stayed because solving problems (and paying rent) feels better than wishful thinking. 
+                These days, I turn logic into solutions that actually work—for users and my landlord.
               </p>
               <p className="text-gray-300 text-sm sm:text-base">
-                Based in Nigeria, I've mastered the art of coding through power outages and internet that moves slower
-                than the plot in a slice-of-life anime. My first app was a calculator that converted "episodes watched"
-                into "hours I should have been working." My point is, I can code through anything, even if it means going to my neighbour's house to get your job done.
+                Based in Nigeria, I’ve honed my coding skills through unstable power and slow internet—because building solutions doesn’t wait for perfect conditions. 
+                My first app? A simple calculator. Today, I deliver real results, even if it means knocking on a neighbor’s door to stay connected and get the job done. 
+                Reliable, resourceful, and always shipping..
               </p>
               <p className="text-gray-300 text-sm sm:text-base">
-                My friends say I need to find balance. I say I've found it perfectly: 50% coding, 50% anime, and 0%
-                savings. (I mean why save for rainy days when every day is literally a rainy day right?)
+               My version of balance? Writing clean code by day, solving real-life problems by night — from bugs in my projects to bills on my table. 
+               Growth, rent, and resilience are the only constants right now.
               </p>
             </div>
 
             <div className="backdrop-blur-lg bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 space-y-4">
               <h3 className="text-xl sm:text-2xl font-bold">The Mission</h3>
               <p className="text-gray-300 text-sm sm:text-base">
-                My mission is simple: write enough good code to keep a roof over my head and maintain my premium anime
-                subscriptions. It's not much, but it's honest work. My five-year plan includes affording both rent AND
-                food in the same month. 
+               My mission is simple: write clean, purposeful code that keeps a roof over my head and solves real problems. It's not always glamorous, but it’s real work with real impact. The goal? Stability — where rent, bills, and peace of mind can coexist in the same month.
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <div className="bg-white/10 p-3 rounded-full shrink-0">
@@ -256,7 +253,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Skills & Technologies</h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
-              The tools I've mastered to keep my landlord happy and my anime queue flowing. My skill tree is optimized
+              The tools I've mastered to keep my landlord happy and my rent queue flowing. My skill tree is optimized
               for maximum rent-paying efficiency.
             </p>
           </div>
@@ -289,7 +286,7 @@ export default function Home() {
                 )}
               </div>
               <p className="text-gray-400 text-center mt-6 text-sm sm:text-base">
-                These are the technologies that keep my rent paid and my anime streaming without buffering. I learned
+                These are the technologies that keep my rent paid and help me solve real life problems without buffering. I learned
                 React faster than Goku mastered Ultra Instinct.
               </p>
             </TabsContent>
@@ -343,8 +340,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-8 sm:mb-12 md:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">Featured Projects</h2>
             <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
-              Code that keeps my landlord off my back and my Crunchyroll subscription active. Each project represents
-              approximately 3 months of anime streaming costs.
+              Code that keeps my landlord off my back and my rent paid. These projects are the real MVPs of my portfolio—built to solve real problems (and sometimes, just to keep the lights on).
             </p>
           </div>
         </FadeIn>
