@@ -19,10 +19,10 @@ export function ContactModal({ isOpen, onClose, isAnimeSelected }: ContactModalP
             <DialogTitle className="text-2xl font-bold">
               {isAnimeSelected ? "A Fellow Otaku!" : "Message Sent!"}
             </DialogTitle>
-            <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
+            {/* <Button variant="ghost" size="icon" onClick={onClose} className="h-8 w-8">
               <X className="h-4 w-4" />
               <span className="sr-only">Close</span>
-            </Button>
+            </Button> */}
           </div>
           <DialogDescription className="text-gray-400">
             {isAnimeSelected

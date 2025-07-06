@@ -15,6 +15,7 @@ import { MobileNav } from "@/components/mobile-nav"
 import { FadeIn, StaggeredFadeIn } from "@/components/fade-in"
 import { LoadingSpinner } from "@/components/loading"
 
+
 export default function Home() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [isProjectModalOpen, setIsProjectModalOpen] = useState(false)
@@ -46,19 +47,19 @@ export default function Home() {
 
   const featuredProjects = [
     {
-      id: "rentpay",
-      title: "RentPay Reminder",
-      description: "Because my landlord doesn't accept 'I was watching the season finale' as payment.",
+      id: "Admin Dashboard",
+      title: "E-commerce Admin Dashboard Template",
+      description: "An ecommerce tailored admin dashboard to help manage products and orders.",
       tags: ["React", "Node.js", "MongoDB"],
       image: "/placeholder.svg?height=300&width=400",
-      demoUrl: "#",
+      demoUrl: "https://admin-dash-ecom.vercel.app/",
       githubUrl: "#",
       longDescription:
-        "RentPay Reminder was born after my third 'final notice' letter. It sends notifications before rent is due, tracks payment history, and even suggests freelance opportunities when your bank account is looking as empty as my fridge the day before payday.",
+        "Admin Dashboard is a powerful tool for managing ecommerce platforms, designed to make product and order management as easy as possible. ",
       challenges:
-        "The main challenge was creating a system that could integrate with various payment platforms while being more reliable than my promises to 'watch just one more episode' before bed.",
+        "Integrating real-time data updates and ensuring a smooth user experience across different devices was a challenge. I also had to ensure that the dashboard could handle large datasets without performance issues.",
       solutions:
-        "I implemented OAuth 2.0 for secure authentication and used Plaid API for safe bank account integration. The notification system is more persistent than a shounen protagonist facing the final boss.",
+        "I implemented WebSocket for real-time updates and optimized the data fetching process using pagination and lazy loading. The UI was designed to be responsive, ensuring a seamless experience on both desktop and mobile devices.",
       screenshots: ["/placeholder.svg?height=200&width=350", "/placeholder.svg?height=200&width=350"],
     },
     {
@@ -173,9 +174,11 @@ export default function Home() {
                   </Link>
                 </Button>
                 <Button size="lg" variant="outline" className="border-white/20">
-                  <Github className="mr-2 h-4 w-4" />
-                  <span className="hidden sm:inline">GitHub (Last Commit: Rent Day)</span>
-                  <span className="sm:hidden">GitHub</span>
+                  <Link href={"https://github.com/Mathvic456"} className="flex items-center">
+                    <Github className="mr-2 h-4 w-4" />
+                    <span className="hidden sm:inline">GitHub (Last Commit: Rent Day)</span>
+                    <span className="sm:hidden">GitHub</span>
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -310,7 +313,7 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4">
                 {[
                   "Problem Solving",
-                  "Time Management*",
+                  "Time Management",
                   "Communication",
                   "Adaptability",
                   "Attention to Detail",
@@ -327,7 +330,7 @@ export default function Home() {
               <p className="text-gray-400 text-center mt-6 text-sm sm:text-base">
                 Skills I've developed through countless debugging sessions and waiting for new anime seasons.
                 <br />
-                <span className="text-xs">*Time management excludes "one more episode" situations</span>
+                <span className="text-xs">Time management excludes "one more episode" situations.</span>
               </p>
             </TabsContent>
           </Tabs>
@@ -498,11 +501,11 @@ export default function Home() {
                 Built with code, caffeine, and the motivation to watch more anime without buffering.
               </p>
               <div className="flex gap-4">
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="https://github.com/Mathvic456" className="text-gray-400 hover:text-white">
                   <Github className="h-5 w-5" />
                   <span className="sr-only">GitHub</span>
                 </Link>
-                <Link href="#" className="text-gray-400 hover:text-white">
+                <Link href="" className="text-gray-400 hover:text-white">
                   <Mail className="h-5 w-5" />
                   <span className="sr-only">Email</span>
                 </Link>
